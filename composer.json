@@ -1,0 +1,18 @@
+{
+    "name": "weltpixel/magento2-weltpixel-user-profile",
+    "description": "WeltPixel UserProfile Module",
+    "require": {
+        "magento/module-customer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.15.9",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WeltPixel\\UserProfile\\": ""
+        }
+    }
+}
